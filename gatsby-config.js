@@ -22,8 +22,10 @@ module.exports = {
     resolve: 'gatsby-source-filesystem',
     options: {
       "name": "pages",
-      "path": "./src/pages/"
+      "path": "./_posts/blog/"
     },
     __key: "pages"
-  }]
+  },
+`gatsby-transformer-remark`
+]
 };
